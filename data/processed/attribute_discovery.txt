@@ -1,0 +1,93 @@
+=== 1.1 Attribute Counts ===
+ attribute_description  rows
+    Arabica Production  4478
+          Bean Exports  4478
+          Bean Imports  4478
+      Beginning Stocks  4478
+  Domestic Consumption  4478
+         Ending Stocks  4478
+               Exports  4478
+               Imports  4478
+      Other Production  4478
+            Production  4478
+Roast & Ground Exports  4478
+Roast & Ground Imports  4478
+    Robusta Production  4478
+Rst,Ground Dom. Consum  4478
+    Soluble Dom. Cons.  4478
+       Soluble Exports  4478
+       Soluble Imports  4478
+    Total Distribution  4478
+          Total Supply  4478
+
+=== 1.2 Market Year Range ===
+ min_yr  max_yr  n_years
+   1960    2025       66
+
+=== 1.3 Distinct ISO3 Counts Per Attribute ===
+ attribute_description  n_countries
+    Arabica Production           91
+          Bean Exports           91
+          Bean Imports           91
+      Beginning Stocks           91
+  Domestic Consumption           91
+         Ending Stocks           91
+               Exports           91
+               Imports           91
+      Other Production           91
+            Production           91
+Roast & Ground Exports           91
+Roast & Ground Imports           91
+    Robusta Production           91
+Rst,Ground Dom. Consum           91
+    Soluble Dom. Cons.           91
+       Soluble Exports           91
+       Soluble Imports           91
+    Total Distribution           91
+          Total Supply           91
+
+=== 1.4 Top 10 Countries By Row Count ===
+iso3_code  rows
+      AGO  1254
+      BDI  1254
+      BOL  1254
+      BRA  1254
+      CAF  1254
+      CIV  1254
+      CMR  1254
+      COD  1254
+      COG  1254
+      COL  1254
+
+=== 1.5 Unit Description Samples ===
+ attribute_description  unit_description
+    Arabica Production (1000 60 KG BAGS)
+          Bean Exports (1000 60 KG BAGS)
+          Bean Imports (1000 60 KG BAGS)
+      Beginning Stocks (1000 60 KG BAGS)
+  Domestic Consumption (1000 60 KG BAGS)
+         Ending Stocks (1000 60 KG BAGS)
+               Exports (1000 60 KG BAGS)
+               Imports (1000 60 KG BAGS)
+      Other Production (1000 60 KG BAGS)
+            Production (1000 60 KG BAGS)
+Roast & Ground Exports (1000 60 KG BAGS)
+Roast & Ground Imports (1000 60 KG BAGS)
+    Robusta Production (1000 60 KG BAGS)
+Rst,Ground Dom. Consum (1000 60 KG BAGS)
+    Soluble Dom. Cons. (1000 60 KG BAGS)
+       Soluble Exports (1000 60 KG BAGS)
+       Soluble Imports (1000 60 KG BAGS)
+    Total Distribution (1000 60 KG BAGS)
+          Total Supply (1000 60 KG BAGS)
+
+=== Verification Matches ===
+Consumption matches: ['Domestic Consumption']
+Production matches: ['Arabica Production', 'Other Production', 'Production', 'Robusta Production']
+Imports matches: ['Bean Imports', 'Imports', 'Roast & Ground Imports', 'Soluble Imports']
+Exports matches: ['Bean Exports', 'Exports', 'Roast & Ground Exports', 'Soluble Exports']
+Selected consumption attribute: Domestic Consumption
+Selected production attribute: Production
+Selected imports attribute: Bean Imports
+Selected exports attribute: Bean Exports
+STEP 1 VERIFICATION PASSED
